@@ -12,7 +12,7 @@ This repository fully implements the Tecnvirons Realtime AI Backend assignment:
 
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate   
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
