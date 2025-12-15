@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Realtime AI Demo</title></head>
+<body>
+<h2>Realtime AI WebSocket</h2>
+<button onclick="connect()">Connect</button><br><br>
+<input id="msg" placeholder="Type message"/>
+<button onclick="send()">Send</button>
+<pre id="out"></pre>
+
+<script>
+let ws;
+function connect(){
+  ws = new WebSocket("ws://localhost:8000/ws/session/demo123");
+  ws.onmessage = e => out.textContent += e.data;
+}
+function send(){
+  ws.send(msg.value);
+  msg.value="";
+}
+</script>
+</body>
+</html>
