@@ -1,5 +1,5 @@
 
-# Tecnvirons – Realtime AI Backend (COMPLETE)
+# Tecnvirons – Realtime AI Backend 
 
 This repository fully implements the Tecnvirons Realtime AI Backend assignment:
 - FastAPI + WebSockets
