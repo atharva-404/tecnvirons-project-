@@ -10,7 +10,6 @@ This repository fully implements the Tecnvirons Realtime AI Backend assignment:
 
 
 
-
 ## Run Instructions
 
 
