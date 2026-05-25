@@ -11,8 +11,6 @@ This repository fully implements the Tecnvirons Realtime AI Backend assignment:
 
 ## Run Instructions
 
-
-
 ```bash
 python -m venv venv
 venv\Scripts\activate   
