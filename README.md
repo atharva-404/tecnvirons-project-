@@ -7,7 +7,6 @@ This repository fully implements the Tecnvirons Realtime AI Backend assignment:
 - Supabase persistence
 - Post-session summarization
 - Simple frontend
-
 ## Run Instructions
 
 ```bash
